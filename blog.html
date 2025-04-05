@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Your Logo"></a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+            </ul>
+            <div class="nav-overlay"></div>
+        </nav>
+    </header>
+
+<main class="blog-page">
+    <section class="blog-intro">
+        <h1>My Blog</h1>
+        <p>Welcome to my blog! Here, I share my thoughts, experiences, and insights on various topics related to AI, chatbots, machine learning, and more.</p>
+    </section>
+
+    <section class="projects">
+        <div class="project">
+            <img src="images/gpu-min.jpg" class="project-img">
+            <h2>The Rise of AI: Opportunities and Challenges</h2>
+            <p class="post-date">Published on: March 10, 2025</p>
+            <p>Artificial Intelligence (AI) is transforming industries across the globe. From healthcare to finance, AI is providing innovative solutions that enhance efficiency and productivity. However, with these opportunities also come significant challenges, such as ethical considerations and data privacy issues.</p>
+            <a href="blogWebsites.pdf" class="btn">Read More</a>
+        </div>
+
+
+        <div class="project">
+            <img src="images/customer service-min.jpg" class="project-img">
+            <h2>Chatbots: Revolutionizing Customer Service</h2>
+            <p class="post-date">Published on: February 15, 2025</p>
+            <p>Chatbots have become an integral part of customer service strategies for many businesses. They provide instant responses to customer inquiries, improving user experience and satisfaction. As technology evolves, chatbots will become increasingly sophisticated.</p>
+            <a href="blogWebsites.pdf" class="btn">Read More</a>
+        </div>
+
+        <div class="project">
+            <img src="images/comp1-min.jpg" class="project-img">
+            <h2>Machine Learning: The Future of Data Analysis</h2>
+            <p class="post-date">Published on: February 5, 2025</p>
+            <p>Machine learning is at the forefront of data analysis, enabling organizations to glean insights from vast amounts of data. By leveraging algorithms and statistical models, businesses can make informed decisions, predict trends, and enhance operational efficiency.</p>
+            <a href="blogWebsites.pdf" class="btn">Read More</a>
+
+        </div>
+
+
+        <div class="project">
+            <img src="images/world-min (1).jpg" class="project-img">
+            <h2>Political Views on AI Regulation</h2>
+            <p class="post-date">Published on: January 20, 2025</p>
+            <p>As AI technology advances, the political landscape surrounding its regulation becomes increasingly complex. Policymakers are tasked with balancing innovation and public safety while addressing concerns about job displacement and bias in AI systems.</p>
+            <a href="blogWebsites.pdf" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+</main>
+
+    <div class="float-nav">
+        <button class="float-nav-button" id="floatNavToggle">
+            <i class="fas fa-compass"></i>
+        </button>
+        <div class="float-nav-menu" id="floatNavMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <button class="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <span>AI Assistant</span>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <img src="images/ai-assistant.png" alt="AI Assistant" class="bot-avatar">
+                    <div class="message-content">
+                        Hi! 👋 I'm Erick's AI assistant. Ask me anything about his skills, projects, or experience!
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

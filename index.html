@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Erick Gitaranga</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+              <a href="index.html">  <img src="images/logo2.jpg"></a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="nav-overlay"></div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/7048178_Animation_Motion Graphic_3840x2160 (1).mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Erick Gitaranga...</h1>
+            <p>Artificial Intelligence and machine learning engineer.</p>
+            <a href="portfolio.html" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <img src="images/profile-min.jpg" alt="Erick Gitaranga" class="profile-img">
+            <div class="about-text">
+                <h2>In a Nutshell....</h2>
+                <p>I have a solid background in machine learning and the development of AI tools alongside data analysis. Currently, I'm learning to create marketing chatbots while exploring new technologies and contributing to open-source projects. </p>
+                <p>Let's <a href="contact.html">connect</a> and build something amazing together!</p> 
+            </div>
+        </div>
+    </section>
+
+    <div class="float-nav">
+        <button class="float-nav-button" id="floatNavToggle">
+            <i class="fas fa-compass"></i>
+        </button>
+        <div class="float-nav-menu" id="floatNavMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <button class="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <span>AI Assistant</span>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <img src="images/ai-assistant.png" alt="AI Assistant" class="bot-avatar">
+                    <div class="message-content">
+                        Hi! 👋 I'm Erick's AI assistant. Ask me anything about his skills, projects, or experience!
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

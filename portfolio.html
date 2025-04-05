@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.jpg" ></a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="nav-overlay"></div>
+        </nav>
+    </header>
+
+    <main class="portfolio-page">
+        <section class="portfolio-intro">
+            <h1>My Projects</h1>
+            <p>Welcome to my portfolio! Here you'll find a selection of my recent projects, showcasing my skills in AI integration and machine learning.</p>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <img src="images/machine learn2-min.jpg" class="project-img">
+                <h2>Project 1: Bot Tasker</h2>
+                <p>This project involves the integration of an AI chatbot to a task app enhancing both its usability and capabilities.</p>
+                <a href="projects.pdf" class="btn">View Project</a>
+            </div>
+
+            <div class="project">
+                <img src="images/lock-min.jpg" class="project-img">
+                <h2>Project 3: Gamer Lock</h2>
+                <p>This project demonstrates the vulnerabilities associated with cloud gaming and how to overcome them with my security tool.</p>
+                <a href="projects.pdf" class="btn">View Project</a>
+            </div>
+
+            <div class="project">
+                <img src="images/verify-min.jpg" class="project-img">
+                <h2>Project 4: ID Verify</h2>
+                <p>This project is a proof of concept for a secure ID verification system.</p>
+                <a href="projects.pdf" class="btn">View Project</a>
+            </div>
+
+            <div class="project">
+                <img src="images/machine3-min.jpg" class="project-img">
+                <h2>Project 2: Machine Mine</h2>
+                <p>This project showcases how my AI data mining tool accelerates data analysis and machine learning.</p>
+                <a href="projects.pdf" class="btn">View Project</a>
+            </div>
+
+
+        </section>
+
+        <section class="skills-accomplishments">
+            <h2>Skills & Accomplishments</h2>
+            <ul>
+                <li>Skill 1: Python</li>
+                <li>Skill 2: Html/Css/Javascript</li>
+                <li>Skill 3: Data modeling</li>
+                <li>Skill 4: AI Prompting</li>
+                <li>Accomplishment 1:Run Marketing chatbot</li>
+                <li>Accomplishment 2: Charge for Fraud detection Model</li>
+                <li>Accomplishment 3: ID Verify App Aknowleged by the UK goverment</li>
+                <li>Accomplishment 4: Data Mining Tool Aknowleged by Google</li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="float-nav">
+        <button class="float-nav-button" id="floatNavToggle">
+            <i class="fas fa-compass"></i>
+        </button>
+        <div class="float-nav-menu" id="floatNavMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <button class="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <span>AI Assistant</span>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <img src="images/ai-assistant.png" alt="AI Assistant" class="bot-avatar">
+                    <div class="message-content">
+                        Hi! 👋 I'm Erick's AI assistant. Ask me anything about his skills, projects, or experience!
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

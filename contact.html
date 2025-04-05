@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Your Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+         
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-intro">
+            <div class="intro-content"> 
+                <img src="images/profile-min.jpg" class="profile-img">
+                <h1>Contact Me</h1>
+                <p>I'd love to hear from you!  Feel free to reach out with any questions, project inquiries, or just to connect.</p>
+            </div>
+        </section>
+        <section class="contact-methods">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:email@greenwich.com">email@greenwich.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+440789764543">+44 0789764543</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/erick-gitaranga-b70000200/">LinkedIn</a></p>
+                <p><i class="fas fa-file-download"></i> <a href="project cv.pdf" download class="cv-link">Download My CV</a></p>
+            </div>
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
+    </footer>
+   
+    <script src="script.js" defer></script>
+</body>
+</html>

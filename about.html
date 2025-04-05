@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me </title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+             <a href="index.html">   <img src="images/logo2.jpg" ></a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="nav-overlay"></div>
+        </nav>
+    </header>
+
+    <main class="about-page">
+        <section class="about-intro">
+            <h1>About Me</h1>
+            <p>Hello! My name is Erick. I was born in Kenya and grew up in the UK, which has shaped my perspective and fuelled my passion for technology and creativity.</p>
+        </section>
+        <section class="projects">
+            <div class="project">
+                <img src="images/minimalist-photorealistic-desert-road-min.jpg" class="project-img">
+                <h2>My Journey</h2>
+                <p>My journey into AI and machine learning began at age 18 when I successfully built my first web application. This experience ignited my enthusiasm for the field and motivated me to continuously learn and enhance my skills.</p>
+            </div>
+
+            <div class="project">
+                <img src="images/logistics-means-transport-together-with-technological-futuristic-holograms-min.jpg" class="project-img">
+                <h2>Interests and Hobbies</h2>
+                <p>In addition to coding, I engage in various leisure activities such as playing the guitar, hiking and discovering new places. I value the importance of a balanced lifestyle, and I often draw inspiration for my work from these hobbies. Maintaining this equilibrium helps fuel my creativity and productivity.</p>
+            </div>
+
+            <div class="project">
+                <img src="images/cybersecurity-concept-illustration-min.jpg" class="project-img">
+                <h2>Professional Background</h2>
+                <p>I possess a degree in Computing from Greenwich University. Throughout my career, I have been involved in a diverse array of projects, including personal blogs and comprehensive e-commerce websites. At present, I am dedicated to advancing my expertise in several key areas, such as data engineering, cybersecurity, cloud computing, and AI prompting.</p>
+            </div>
+
+            <div class="project">
+                <img src="images/gradient-technology-background (1)-min.jpg" class="project-img">
+                <h2>Additional Information</h2>
+                <p>I am strongly interested in open-source contributions and volunteer work. I actively seek opportunities to connect with individuals who share similar passions and collaborate on innovative projects.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="float-nav">
+        <button class="float-nav-button" id="floatNavToggle">
+            <i class="fas fa-compass"></i>
+        </button>
+        <div class="float-nav-menu" id="floatNavMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <button class="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <span>AI Assistant</span>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <img src="images/ai-assistant.png" alt="AI Assistant" class="bot-avatar">
+                    <div class="message-content">
+                        Hi! 👋 I'm Erick's AI assistant. Ask me anything about his skills, projects, or experience!
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
