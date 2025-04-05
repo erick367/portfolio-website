@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 category: 'about',
-                keywords: ['about', 'who is', 'tell me about erick', 'background', 'introduction', 'person', 'tell me more'],
+                keywords: ['about', 'who is', 'tell me about erick', 'background', 'introduction', 'profession', 'career'],
                 response: "Erick is a dedicated AI/ML engineer with a passion for innovation. He combines his technical skills with a creative approach to solve complex problems."
             },
             {
