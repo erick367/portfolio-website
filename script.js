@@ -246,44 +246,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add floating navigation functionality
-    const floatNavToggle = document.getElementById('floatNavToggle');
-    const floatNavMenu = document.getElementById('floatNavMenu');
-
-    if (floatNavToggle && floatNavMenu) {
-        // Add touchstart event for mobile devices
-        floatNavToggle.addEventListener('touchstart', handleNavToggle, { passive: true });
-        floatNavToggle.addEventListener('click', handleNavToggle);
-
-        function handleNavToggle(e) {
-            e.preventDefault(); // Prevent any default behavior
-            
-            // Toggle active class instead of directly manipulating style
-            floatNavMenu.classList.toggle('active');
-            
-            // Update icon
-            if (floatNavMenu.classList.contains('active')) {
-                floatNavToggle.innerHTML = '<i class="fas fa-times"></i>';
-                floatNavToggle.setAttribute('aria-expanded', 'true');
-            } else {
-                floatNavToggle.innerHTML = '<i class="fas fa-compass"></i>';
-                floatNavToggle.setAttribute('aria-expanded', 'false');
-            }
-        }
-
-        // Close menu when clicking/touching outside
-        document.addEventListener('click', handleOutsideClick);
-        document.addEventListener('touchstart', handleOutsideClick, { passive: true });
-
-        function handleOutsideClick(event) {
-            if (!floatNavToggle.contains(event.target) && !floatNavMenu.contains(event.target)) {
-                floatNavMenu.classList.remove('active');
-                floatNavToggle.innerHTML = '<i class="fas fa-compass"></i>';
-                floatNavToggle.setAttribute('aria-expanded', 'false');
-            }
-        }
-    }
-
     // Loading Animation for Projects
     const projects = document.querySelectorAll('.project');
     if (projects.length) {
