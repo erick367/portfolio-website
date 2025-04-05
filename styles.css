@@ -762,6 +762,7 @@ footer:hover {
     justify-content: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    font-size: 24px;
 }
 
 .chatbot-button:hover {
@@ -854,33 +855,37 @@ footer:hover {
     background-color: var(--white);
     position: relative;
     min-height: 60px;
+    align-items: center;
+    gap: 10px;
 }
 
 .chatbot-input input {
     flex: 1;
-    padding: 8px;
+    padding: 12px 45px 12px 15px;
     border: 1px solid #ddd;
-    border-radius: 20px;
-    margin-right: 10px;
+    border-radius: 25px;
+    margin-right: 0;
     font-size: 16px;
+    outline: none;
 }
 
 .chatbot-input button {
-    padding: 8px 15px;
+    padding: 8px;
     background-color: #2ecc71;
     color: var(--white);
     border: none;
-    border-radius: 20px;
+    border-radius: 50%;
     cursor: pointer;
-    min-width: 44px;
+    min-width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 20px;
+    right: 25px;
     top: 50%;
     transform: translateY(-50%);
+    transition: background-color 0.3s ease;
 }
 
 .chatbot-input button:hover {
@@ -899,16 +904,17 @@ footer:hover {
     }
 
     .chatbot-input {
-        padding: 10px 15px;
+        padding: 12px;
     }
 
     .chatbot-input input {
-        padding-right: 50px;
+        padding: 12px 45px 12px 15px;
     }
 
     .chatbot-button {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
     }
 
     .chatbot-messages {
