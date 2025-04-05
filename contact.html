@@ -13,6 +13,11 @@
             <div class="logo">
                 <a href="index.html"><img src="images/logo2.jpg" alt="Your Logo"></a>
             </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -20,7 +25,7 @@
                 <li><a href="contact.html" class="active">Contact</a></li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
-         
+            <div class="nav-overlay"></div>
         </nav>
     </header>
 
@@ -61,10 +66,49 @@
         </section>
     </main>
 
+    <div class="float-nav">
+        <button class="float-nav-button" id="floatNavToggle">
+            <i class="fas fa-compass"></i>
+        </button>
+        <div class="float-nav-menu" id="floatNavMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
     <footer>
         <p>&copy; 2025 Erick Gitaranga. All rights reserved.</p>
     </footer>
-   
+
+    <div class="chatbot-container">
+        <button class="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <span>AI Assistant</span>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <img src="images/ai-assistant.png" alt="AI Assistant" class="bot-avatar">
+                    <div class="message-content">
+                        Hi! 👋 I'm Erick's AI assistant. Ask me anything about his skills, projects, or experience!
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js" defer></script>
 </body>
 </html>
